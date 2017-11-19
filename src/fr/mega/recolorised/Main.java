@@ -45,23 +45,23 @@ public class Main extends JavaPlugin {
         ItemStack resultat = new ItemStack(Material.STAINED_GLASS, 8);
         resultat.setDurability((short) (15-dstColor));
 
-        ShapedRecipe hcColored = new ShapedRecipe(new ItemStack(resultat));
-        hcColored.shape("SSS", "SDS", "SSS");
-        hcColored.setIngredient('S', Material.STAINED_GLASS, abs(srcColor-15));
-        hcColored.setIngredient('D', Material.INK_SACK, dstColor);
+        ShapedRecipe sgColored = new ShapedRecipe(new ItemStack(resultat));
+        sgColored.shape("SSS", "SDS", "SSS");
+        sgColored.setIngredient('S', Material.STAINED_GLASS, abs(srcColor-15));
+        sgColored.setIngredient('D', Material.INK_SACK, dstColor);
 
-        getServer().addRecipe(hcColored);
+        getServer().addRecipe(sgColored);
     }
 
     public void setGPCraft(short srcColor, short dstColor) {
         ItemStack resultat = new ItemStack(Material.STAINED_GLASS_PANE, 8);
         resultat.setDurability((short) (15-dstColor));
 
-        ShapedRecipe hcColored = new ShapedRecipe(new ItemStack(resultat));
-        hcColored.shape("SSS", "SDS", "SSS");
-        hcColored.setIngredient('S', Material.STAINED_GLASS_PANE, abs(srcColor-15));
-        hcColored.setIngredient('D', Material.INK_SACK, dstColor);
+        ShapedRecipe gpColored = new ShapedRecipe(new ItemStack(resultat));
+        gpColored.shape("SSS", "SDS", "SSS");
+        gpColored.setIngredient('S', Material.STAINED_GLASS_PANE, abs(srcColor-15));
+        gpColored.setIngredient('D', Material.INK_SACK, dstColor);
 
-        getServer().addRecipe(hcColored);
+        getServer().addRecipe(gpColored);
     }
 }
