@@ -1,6 +1,10 @@
-**Recolorised**
+# Recolorised
+
+**How is that working ?**
 
 You just have to surround, in a workbench, the dye of your choice of blocks that you want to change.
+
+**Examples**
 
 ![Example glasses](https://image.prntscr.com/image/ZErzRcgHTiG9DRhGvHaILQ.png)
 ![Example panes](https://image.prntscr.com/image/Q8HjMXXmQyS7K36omnpj_Q.png)
